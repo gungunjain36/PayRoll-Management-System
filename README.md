@@ -50,9 +50,81 @@ This Payroll Management System is a Python-based project designed to manage empl
 
 ## Installation
 
-Clone the repository:
+### Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/payroll-management-system.git
+git clone https://github.com/gungunjain36/PayRoll-Management-System.git
 cd payroll-management-system
+```
+### Install the required Python packages:
 
+```bash
+pip install mysql-connector-python
+```
+### Set up the MySQL database:
+
+- Create a database named PAYROLLMS.
+- Create the necessary tables (employee, department, leave_record, salary) in the database. You can use the provided SQL scripts in the sql_scripts directory.
+## Usage
+
+### Run the Python script:
+```bash
+python main.py
+```
+
+### Follow the on-screen instructions to navigate through the various functionalities:
+
+1. Register a New Employee
+2. Search for Employee Basic Details
+3. Remove an Employee
+4. Update Employee Basic Info
+5. Enter Attendance Info of an Employee
+6. Search for Attendance-Leave Details of an Employee
+7. Enter Salary Details of an Employee
+8. Show Salary and Deductions Info of an Employee
+9. Update Salary of an Employee
+10. Display Payment Slip of an Employee
+
+## Database Schema
+
+### Employee Table
+- emp_id (Primary Key)
+- name
+- dob (Date of Birth)
+- doj (Date of Joining)
+- address
+- city
+- phone
+- aadhar
+  
+### Department Table
+- emp_id (Foreign Key)
+- department
+- department_id
+- Leave Record Table
+- emp_id (Foreign Key)
+- working_days
+- days_present
+- days_absent
+- leave_deductions
+  
+### Salary Table
+- emp_id (Foreign Key)
+- department_id
+- basic
+- da (Dearness Allowance)
+- ta (Travel Allowance)
+- hra (House Rent Allowance)
+- ma (Medical Allowance)
+- bonus
+- leave_deductions
+- pf (Provident Fund)
+- pt (Professional Tax)
+- gross_salary
+- net_salary
+  
+## Contributing
+Feel free to contribute to this project by submitting issues or pull requests. Any contributions, big or small, are appreciated!
+
+## Contact
+For any questions or suggestions, please contact gungunjainxia@gmail.com
