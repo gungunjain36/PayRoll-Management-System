@@ -1,5 +1,5 @@
 # Payroll Management System
-This Payroll Management System is a Python-based project designed to manage employee information, attendance, salary, and other payroll-related activities efficiently. The system uses a MySQL database for data storage and retrieval.
+The Payroll Management System is a Python-based project designed to manage employee information, attendance, salary, and other payroll-related activities efficiently. The system uses a MySQL database for data storage and retrieval.
 
   ![Screenshot 2024-07-29 182951](https://github.com/user-attachments/assets/be95a591-6181-4c44-88ba-3eba71f95ae7)
 
