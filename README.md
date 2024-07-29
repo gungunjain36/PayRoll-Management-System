@@ -34,8 +34,8 @@ This Payroll Management System is a Python-based project designed to manage empl
 - Generate salary reports and display net salary.
 - Update salary details.
 - Generate employee pay slips.
-  
-  ![Screenshot 2024-07-29 183125](https://github.com/user-attachments/assets/81800bbf-c1d8-4865-88f2-01338fdb6b29)
+
+![Screenshot 2024-07-29 183125](https://github.com/user-attachments/assets/81800bbf-c1d8-4865-88f2-01338fdb6b29)
 
 ![Screenshot 2024-07-29 183135](https://github.com/user-attachments/assets/737893fc-3f4d-4370-8bda-0d654d5ef5e3)
 
